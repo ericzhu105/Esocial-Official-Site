@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main img {
+  width: auto;
+  height: 70rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  height: 40rem;
+}
+
+.section span {
+  font-size: 2rem;
+}
+
+.section h1 {
+  font-size: 6rem;
+}
+
+.section p {
+  font-size: 2rem;
+}
+
+.scrollDown {
+  margin-top: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
