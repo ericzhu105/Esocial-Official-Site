@@ -11,10 +11,12 @@ import Features from '@sections/features'
 import Footer from '@components/footer'
 
 export default function Home() {
+  console.log('Welcome to Esocial :o, :)')
+
   return (
     <div>
       <Head>
-        <title>Esocial | Home Page</title>
+        <title>Esocial | Home</title>
         <meta name="description" content="Esocial, learning online" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

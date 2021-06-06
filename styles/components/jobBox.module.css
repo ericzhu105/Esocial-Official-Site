@@ -6,7 +6,7 @@
 
   display: flex;
 
-  background-color: var(--grey-light);
+  background-color: var(--white-200);
   border-radius: 2rem;
 }
 
@@ -62,5 +62,5 @@
 }
 
 .information p span {
-    font-weight: 600;
+  font-weight: 600;
 }

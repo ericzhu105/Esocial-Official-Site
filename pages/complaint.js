@@ -1,24 +1,22 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 import Header from '@components/header' 
 import Footer from '@components/footer'
 
-import WorkAtEsocial from '@sections/work'
-import AllJobs from '@sections/allJobs'
+import ComplainSection from '@sections/complainContainer';
 
-export default function Career() {
+export default function Complaint() {
   return (
     <div>
       <Head>
-        <title>Esocial | Careers</title>
-        <meta name="description" content="Work At Esocial" />
+        <title>Esocial | Contact</title>
+        <meta name="description" content="Contact Esocial for any questions" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Header />
-        <WorkAtEsocial />
-        <AllJobs />
+        <ComplainSection />
         <Footer />
       </main>
     </div>

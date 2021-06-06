@@ -1,0 +1,23 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+
+  width: 50rem;
+
+  padding: 2rem 4rem;
+  background-color: var(--white-100);
+  border-radius: 2rem;
+}
+
+.inputBox input {
+  padding: 2rem 2rem;
+  margin-bottom: 1rem;
+
+  border-radius: 0;
+
+  border-bottom: 1px solid var(--grey-100);
+}
+
+.inputBox button {
+  margin-top: 10rem;
+}

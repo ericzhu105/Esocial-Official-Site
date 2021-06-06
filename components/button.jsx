@@ -1,8 +1,8 @@
 import { button } from '@styles/components/button.module.css'
 
-const Button = ({children}) => {
+const Button = ({children, onClickHandler}) => {
     return (
-        <button className={button}>{children}</button>
+        <button className={button} onClick={onClickHandler}>{children}</button>
     )
 }
 
