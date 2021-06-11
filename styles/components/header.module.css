@@ -9,9 +9,20 @@
   padding: 2.8rem 4rem;
 }
 
-.logo {
+.logoWrapper {
+  display: flex;
+  align-items: center;
   cursor: pointer;
-  margin-right: auto;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.logoText {
+  font: bold 40px "Circular Std Book";
+  color: #FF3E3E;
+  margin: 3px 5px 0px 15px;
 }
 
 .link {
