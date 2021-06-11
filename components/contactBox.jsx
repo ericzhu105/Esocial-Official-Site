@@ -8,7 +8,7 @@ const ContactBox = () => {
         <div className={styles.inputBox}>
                 <Input type="name" placeholder="Name" />
                 <Input type="email" placeholder="Email" />
-                <Input type="text" placeholder="Message" />
+                <textarea rows = "10" placeholder="Message" />
 
                 <Button>Send Message</Button>
         </div>
