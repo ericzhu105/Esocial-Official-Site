@@ -23,6 +23,7 @@
   font: bold 40px "Circular Std Book";
   color: #FF3E3E;
   margin: 3px 5px 0px 15px;
+  letter-spacing: 1px;
 }
 
 .link {
