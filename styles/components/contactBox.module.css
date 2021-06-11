@@ -18,6 +18,17 @@
   border-bottom: 1px solid var(--grey-100);
 }
 
+.inputBox textarea {
+  resize: none;
+  border: none;
+  background-color: var(--white-100);
+  font-size: 18px;
+  font-family: "Circular Std Book";
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
 .inputBox button {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
