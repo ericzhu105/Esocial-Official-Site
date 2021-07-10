@@ -1,0 +1,11 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  padding: 0 5rem;
+  margin-top: 10rem;
+  margin-bottom: 25rem;
+}

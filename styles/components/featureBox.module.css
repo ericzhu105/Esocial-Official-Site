@@ -1,0 +1,22 @@
+.featureBox {
+  display: flex;
+  flex-direction: column;
+
+  width: 45rem;
+}
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  margin-bottom: 2rem;
+}
+
+.head {
+  font-size: 3.6rem;
+}
+
+.text {
+  font-size: 1.8rem;
+}

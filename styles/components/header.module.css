@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2.8rem 4rem;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.link {
+  font-size: 1.8rem;
+}
+
+.rightBox {
+  display: flex;
+  align-items: center;
+
+  gap: 2.5rem;
+}
