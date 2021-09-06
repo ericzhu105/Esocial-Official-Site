@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Image from 'next/image'
 
 import Link from 'next/link'
-import { header, logo, link, rightBox } from '@styles/components/header.module.css'
+import { header, logoWrapper, logoImage, logoText, link, rightBox } from '@styles/components/header.module.css'
 import Button from './button'
 
 const Header = () => {
@@ -10,7 +10,15 @@ const Header = () => {
 
     return (
         <header className={header}>
-            <Image src="/logo.webp" alt="Esocial Logo" height={40} width={150} className={logo} onClick={() => router.push('/')} />
+
+            <Link href="/">
+                <div className={logoWrapper}>
+                    <img src="/EsocialLogo.svg" className={logoImage}/>
+                    <div className={logoText}>
+                        Esocial
+                    </div>
+                </div>
+            </Link>
 
             <nav className={rightBox}>
                 <Link href="/"><a className={link}>Home</a></Link>
